@@ -1,4 +1,4 @@
-package priv.zzy.problems;
+package priv.zzy.problems.algorithm;
 
 import priv.zzy.Solution;
 
