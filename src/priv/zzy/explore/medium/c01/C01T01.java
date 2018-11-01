@@ -1,4 +1,4 @@
-package priv.zzy.explore.medium;
+package priv.zzy.explore.medium.c01;
 
 import priv.zzy.Solution;
 
