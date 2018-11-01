@@ -18,7 +18,7 @@ import priv.zzy.Solution;
 
 
 
-public class SolutionT0002 extends Solution {
+public class T0002 extends Solution {
 
     /**
      * Definition for singly-linked list.

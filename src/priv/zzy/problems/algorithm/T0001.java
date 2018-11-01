@@ -5,7 +5,7 @@ import priv.zzy.Solution;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class SolutionT0001 extends Solution {
+public class T0001 extends Solution {
 
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, ArrayList<Integer>> bucket = new HashMap<>();

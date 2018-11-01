@@ -7,6 +7,7 @@ import priv.zzy.explore.medium.c06.*;
 public class Main {
 
     public static void main(String[] args) {
-        new C06T02().run();
+//        call the run method of the solution you want
+//        new C06T03().run();
     }
 }
