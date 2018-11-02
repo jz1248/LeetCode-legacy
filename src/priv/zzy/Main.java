@@ -9,5 +9,6 @@ public class Main {
     public static void main(String[] args) {
 //        call the run method of the solution you want
 //        new C06T03().run();
+        new C06T04().run();
     }
 }
