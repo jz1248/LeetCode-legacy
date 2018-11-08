@@ -1,9 +1,8 @@
 package priv.zzy.explore.medium.c03;
 
 import priv.zzy.Solution;
-import priv.zzy.utils.print.ListPrintUtil;
+import priv.zzy.utils.ListPrintUtil;
 
-import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;

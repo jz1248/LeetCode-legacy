@@ -1,7 +1,7 @@
 package priv.zzy.explore.medium.c01;
 
 import priv.zzy.Solution;
-import priv.zzy.utils.print.ListPrintUtil;
+import priv.zzy.utils.ListPrintUtil;
 
 import java.util.*;
 

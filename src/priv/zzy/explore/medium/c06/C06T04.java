@@ -63,6 +63,10 @@ public class C06T04 extends Solution {
      * 解法一中，内层循环较为耗时，并且题目只需要求长度，
      * 所以可以使用模拟栈，通过二分查找来降低复杂度
      *
+     * 时间复杂度: O(n log n)    <br />
+     * 空间复杂度: O(n)      <br />
+     * 提交结果: Accepted
+     *
      * @param nums
      * @return
      */

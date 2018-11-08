@@ -1,4 +1,4 @@
-package priv.zzy.utils.print;
+package priv.zzy.utils;
 
 import java.util.List;
 
