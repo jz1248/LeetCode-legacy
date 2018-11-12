@@ -1,4 +1,4 @@
-package priv.zzy.utils;
+package priv.zzy.utils.tree;
 
 import priv.zzy.common.BinaryTreeNode;
 
@@ -11,6 +11,6 @@ public class BinaryTreeUtil {
      */
     public static int height(BinaryTreeNode root) {
         if (root == null) return 0;
-        return Integer.max(height(root.left), height(root.right)) + 1;
+        return Integer.max(height(root.getLeft()), height(root.getRight())) + 1;
     }
 }
