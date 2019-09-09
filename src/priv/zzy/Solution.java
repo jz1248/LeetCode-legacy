@@ -1,5 +1,6 @@
 package priv.zzy;
 
+import java.lang.reflect.Method;
 import java.util.List;
 
 public class Solution {
@@ -50,5 +51,24 @@ public class Solution {
 
         sb.setCharAt(sb.length() - 1, ']');
         return sb.toString();
+    }
+
+    public static void printCase(Object input, Object output, Object correctOutput) {
+        String str = "\nInput:\t\t" + input + "\t(" + input.getClass() + ")" +
+                "\nOutput:\t\t" + output + "\t(" + input.getClass() + ")" +
+                "\nStd Output:\t" + correctOutput + "\t(" + input.getClass() + ")";
+        System.out.println(str);
+    }
+
+    public static void test(Object[] inputs, Object[] outputs, Object target, String methodName, Class... classes) {
+        try {
+            Method method = target.getClass().getMethod(methodName, classes);
+            for (int i = 0; i < inputs.length; ++i) {
+                printCase(inputs[i], method.invoke(target, inputs[i]), outputs[i]);
+            }
+        } catch (ReflectiveOperationException e) {
+            e.printStackTrace();
+        }
+
     }
 }
